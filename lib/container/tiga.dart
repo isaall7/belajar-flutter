@@ -1,5 +1,5 @@
-import 'package:belajar_flutter/main_layouts.dart';
 import 'package:flutter/material.dart';
+import 'package:belajar_flutter/main_layouts.dart';
 
 void main() {
   runApp(BelajarFlutter());

@@ -13,7 +13,11 @@ class MainLayouts extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(title)),
+      appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: Colors.orangeAccent,
+        title: Text(title),
+      ),
       body: body,
     );
   }

@@ -4,6 +4,12 @@ import 'package:belajar_flutter/container/tiga.dart';
 import 'package:belajar_flutter/row_colom/row_colomn.dart';
 import 'package:belajar_flutter/row_colom/row_satu.dart';
 import 'package:belajar_flutter/row_colom/latihan_row_colom.dart';
+import 'package:belajar_flutter/list_view/contoh_satu.dart';
+import 'package:belajar_flutter/list_view/contoh_dua.dart';
+import 'package:belajar_flutter/list_view/contoh_tiga.dart';
+import 'package:belajar_flutter/list_view/contoh_empat.dart';
+import 'package:belajar_flutter/list_view/wisata_screen.dart';
+import 'package:belajar_flutter/tugas/profile.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +23,7 @@ class BelajarFlutter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LatihanRowCol(),
+      home: Profile(),
     );
   }
 }
