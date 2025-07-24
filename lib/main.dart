@@ -10,6 +10,9 @@ import 'package:belajar_flutter/list_view/contoh_tiga.dart';
 import 'package:belajar_flutter/list_view/contoh_empat.dart';
 import 'package:belajar_flutter/list_view/wisata_screen.dart';
 import 'package:belajar_flutter/tugas/profile.dart';
+import 'package:belajar_flutter/belajar_form/form_screen.dart';
+import 'package:belajar_flutter/belajar_form/form_output_screen.dart';
+import 'package:belajar_flutter/helpers/size_helper.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -23,7 +26,7 @@ class BelajarFlutter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Profile(),
+      home: BelajarForm(),
     );
   }
 }
